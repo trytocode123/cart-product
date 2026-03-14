@@ -1,0 +1,10 @@
+body {
+    background-color: white;
+}
+
+.block-counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
