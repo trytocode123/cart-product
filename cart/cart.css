@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 680px;
+}
+
+.card {
+    display: flex;
+    background-color: #ededed;
+    width: 200px;
+    height: 300px;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.img-product {
+    width: 100%;
+    height: 200px;
+}
+
+@media (max-width: 640px) {
+    .card {
+        padding: 10px;
+        font-size: 26px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-product {
+        height: 500px;
+    }
+
+    body {
+        height: 500px;
+    }
+}
